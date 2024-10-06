@@ -1,0 +1,9 @@
+<!doctype html>
+<body>
+<script>
+for (i = 0; i <= 7; ++i) {
+	let color = "fff04f80c0".substr(i, 3);
+	let style = `padding: 2rem; font-size: 2rem; font-family: sans; background: #${color};`;
+	document.body.innerHTML += `<div style="${style}">${i}</div>`;
+}
+</script>
